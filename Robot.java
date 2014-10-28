@@ -18,13 +18,11 @@ class Robot{
         else{p.x++;}
     }
     public void moveUp(){
-        if(p.y==0){p.x=9;}
+        if(p.y==0){p.y=9;}
         else{p.y--;}
     }
     public void moveDown(){
-        if(p.y==9){p.x=0;}
+        if(p.y==9){p.y=0;}
         else{p.y++;}
     }
-
-
 }
